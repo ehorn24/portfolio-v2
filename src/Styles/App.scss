@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bungee+Hairline&family=Raleway&family=Shrikhand&display=swap");
+
+//font-family: 'Bebas Neue', cursive;
+//font-family: 'Bungee Hairline', cursive;
+//font-family: 'Roboto', sans-serif;
+//purple: #732ebb
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-image: url("https://i.imgur.com/XQHtz4N.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  min-height: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 3px;
+  z-index: 50000;
+  a {
+    font-family: "Bebas Neue", cursive;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    float: right;
+    margin: 10px 20px 0 0;
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      span {
+        font-family: "Bungee Hairline", cursive;
+        font-size: 28px;
+        color: white;
+        &:hover {
+          border-bottom: 2px solid #732ebb;
+        }
+      }
+      a {
+        color: #732ebb;
+        font-family: "Roboto", sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        &:visited {
+          color: #732ebb;
+        }
+      }
+    }
+  }
+}
+#landing {
+  background-image: url("https://i.imgur.com/QY0QzIp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  margin-top: -60px;
+  .addspace {
+    padding-top: 140px;
+  }
+  .intro {
+    min-height: 440px;
+    h1 {
+      font-family: "Bebas Neue", cursive;
+      font-size: 150px;
+      color: white;
+      letter-spacing: 2px;
+      width: 65%;
+      margin: 0px 0px 0px 30px;
+    }
+    h4 {
+      margin: 20px 0 0 50px;
+      font-family: "Bungee Hairline", cursive;
+      font-size: 26px;
+      color: white;
+    }
+    .intro-p {
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      letter-spacing: 1px;
+      width: 500px;
+      margin: 8px 0 0px 50px;
+      color: white;
+      line-height: 28px;
+    }
+  }
+}
+
+.arrow-1 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+}
+
+.arrow-2 {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin-left: 20px;
+}
+
+.down-arrow {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    top: 5px;
+  }
+  .down-arrow-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.purple {
+  color: #732ebb;
+}
+
+#about {
+  min-height: 650px;
+  position: relative;
+  .about-div {
+    background-color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    .inner-about-div {
+      border: 2px solid #732ebb;
+      margin: 30px;
+      padding: 5px;
+      position: relative;
+      z-index: -1;
+      h2 {
+        font-size: 40px;
+        position: absolute;
+        top: -57px;
+        left: 15px;
+        z-index: 99999;
+        background-color: transparent;
+        font-family: "Bebas Neue", cursive;
+        color: white;
+        width: 200px;
+        span {
+          font-family: "Bungee Hairline", cursive;
+        }
+      }
+      .about-info {
+        margin: 30px;
+        p,
+        ul,
+        li {
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 22px;
+          color: white;
+        }
+      }
+    }
+  }
+}
