@@ -67,12 +67,12 @@ const App = () => {
               <div className="about-info">
                 <p>It all started when I was born... Just kidding.</p>
                 <p>
-                  I've lived on four different continents during my lifetime
-                  (forever the new kid) and worked professionally since I was
-                  fifteen years old. I've worn a lot of hats - full-time
-                  student, professional model, administrative assistant at a law
-                  firm, and intern for a financial advisor. My current hat is in
-                  sales at one of the largest insurance carriers in the world.
+                  I've lived on four different continents during my lifetime and
+                  worked professionally since I was fifteen years old. I've worn
+                  a lot of hats - full-time student, professional model,
+                  administrative assistant at a law firm, and intern for a
+                  financial advisor. My current hat is in sales at one of the
+                  largest insurance carriers in the world.
                 </p>
                 <p>
                   I graduated from the University of Miami with a Bachelor's in
@@ -86,16 +86,43 @@ const App = () => {
                   PostgreSQL. Scroll down and you'll find my projects that
                   showcase said proficiency.
                 </p>
-                <p>Other useful links for you to check out:</p>
-                <ul>
-                  <li>Resume</li>
-                  <li>LinkedIn</li>
-                  <li>GitHub</li>
-                </ul>
+                <p className="center">
+                  Other useful links for you to check out:
+                </p>
+                <div className="icons-div">
+                  <div className="resume-div">
+                    <img
+                      src="https://peopleshub.org/wp-content/uploads/2018/04/person-icon-white.png"
+                      alt="resume icon"
+                    />
+                    <a href="">Resume</a>
+                  </div>
+                  <div className="linkedin-div">
+                    <img
+                      src="https://plan2profit.ca/wp-content/uploads/2018/12/linkedin-logo-white.png"
+                      alt="LinkedIn logo"
+                    />
+                    <a
+                      href="https://www.linkedin.com/in/ella-horn/"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                  </div>
+                  <div className="github-div">
+                    <img
+                      src="https://www.sferalabs.cc/wp-content/uploads/github-logo-white.png"
+                      alt=""
+                    />
+                    <a href="https://github.com/ehorn24" target="_blank">
+                      GitHub
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <a href="#about" className="down-arrow arrow-2">
+          <a href="#projects" className="down-arrow arrow-2">
             <img
               src="https://mbotaswbcw-flywheel.netdna-ssl.com/wp-content/uploads/sites/6/2019/06/white-down-arrow-png-2.png"
               alt=""
